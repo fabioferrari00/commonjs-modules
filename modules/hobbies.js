@@ -3,4 +3,5 @@ const getHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
   return [hobbyOne, hobbyTwo, hobbyThree];
 }
 
+//esporto la funzione
 module.exports = getHobbies;

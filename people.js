@@ -2,10 +2,7 @@
 const name = require('./modules/names.js');
 const hobbies = require('./modules/hobbies.js');
 
-console.log(name('Fabio', 'Antonio'));
-console.log(hobbies('Palestra', 'Gaming', 'Studio'));
-
-//creo una funzione che restituisce sia nome e cognome che gli hobby
+//creo una funzione che restituisce un oggetto che contiene sia fullName che gli hobbies
 const getPerson = () => {
   return {
     fullName: name('Fabio', 'Ferrari'),

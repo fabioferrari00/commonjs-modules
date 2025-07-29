@@ -7,4 +7,5 @@ const fullName = (firstName, lastName) => {
   }
 }
 
+//esporto la funzione
 module.exports = fullName;
