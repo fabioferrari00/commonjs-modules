@@ -1,6 +1,6 @@
 //importo le funzioni dai vari file
-const name = require('./modules/names.js');
-const hobbies = require('./modules/hobbies.js');
+const name = require('./modules/names');
+const hobbies = require('./modules/hobbies');
 
 //creo una funzione che restituisce un oggetto che contiene sia fullName che gli hobbies
 const getPerson = () => {
