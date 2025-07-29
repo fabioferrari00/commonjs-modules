@@ -1,0 +1,6 @@
+//creo una funzione che accetta tre parametri e me ne restituisce un array di stringhe
+const getHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
+  return [hobbyOne, hobbyTwo, hobbyThree];
+}
+
+module.exports = getHobbies;
